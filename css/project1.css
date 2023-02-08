@@ -1,0 +1,953 @@
+html, body {
+  overflow: visible;
+  
+  
+}
+
+
+
+
+
+
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  overflow-x: hidden;
+
+  
+  
+  }
+
+  /* Style the top navigation bar */
+  .topnav {
+  
+  background-color: #1d2a35;
+  height: 56px;
+  
+  }
+
+
+.logoatas{
+  position: relative;
+  left: 20px;
+  height: 70px;
+  width: 90px;
+  bottom:5px;
+  display: inline-block;
+  float: left;
+ 
+}
+
+.logoname{
+  display: inline-block;
+  float: left;
+  position: relative;
+  bottom: 10px;
+  left: 30px;
+  color: white;
+}
+
+ 
+
+  .topnav a {
+    
+    position: relative;
+  color: #ffffff;
+  left: 350px;
+  padding: 14px;
+  top: 15px;
+  text-decoration: none;
+    font-size: 20px;
+  }
+
+  .topnav a:hover {
+  background-color: #ddd;
+  color: black;
+  }
+
+
+
+  .dropdown-content a:hover{
+
+    background-color: grey;
+    
+
+  }
+
+
+.dropbtn {
+  position: relative;
+  left: 350px;
+  top: 15px;
+  cursor: pointer;
+  font-size: 20px;  
+  border: none;
+  outline: none;
+  color: white;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+}
+
+.button:hover {
+  background-color: #ffffff;
+  
+  
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+ 
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+ 
+}
+
+
+.backgroundlink{
+  position:absolute;
+  left: 935px;
+  width: 90px;
+  height: 70px;
+  background-color: #ffffff;
+  z-index:900; 
+  
+  
+}
+
+.link1{
+  position: absolute;
+  left: 940px;
+  font-size: 20px;
+  z-index:1000; 
+
+}
+.link2{
+  position: absolute;
+  left: 940px;
+  font-size: 20px;
+  top: 40px;
+  z-index:1000; 
+  
+  
+}
+.link3{
+  position: absolute;
+  left: 935px;
+  font-size: 20px;
+  top: 80px;
+  z-index:1000; 
+
+  
+}
+
+
+
+
+.dropdown-content2 {
+  display:none ;
+  position: absolute;
+
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+ 
+}
+
+
+.backgroundlink2{
+  position:absolute;
+  left: 1255px;
+  width: 90px;
+  height: 70px;
+  background-color: #ffffff;
+  z-index:900; 
+  
+  
+}
+
+.link11{
+  position: absolute;
+  left: 1260px;
+  font-size: 20px;
+  z-index:1000; 
+
+}
+.link21{
+  position: absolute;
+  left: 1260px;
+  font-size: 20px;
+  top: 40px;
+  z-index:1000; 
+  
+  
+}
+
+#mybtn2{
+    position: absolute;
+    left: 160px;
+}
+
+
+
+
+
+
+  /* css bagian  main */
+
+  .content {
+  background-color: #ffffff;
+  margin: 0;
+  height: 420px; 
+  padding: 10px;
+  }
+
+  .change1{
+    position: relative;
+    top: 30px;
+    left: 240px;
+    font-size: 20px;
+    
+  }
+
+  .t1{
+    position: relative;
+    left: 240px;
+    top: 40px;
+  }
+
+  .gambarlearncode{
+    width: 500px;
+    height: 350px;
+    position: relative;
+    left: 800px;
+    bottom: 200px;
+    border-radius: 7px;
+    display: flex;
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+/*                                    main 1*/
+
+
+
+  .containerhtml {
+    position: relative;
+    display: left;
+    left: 400px;
+    top: 30px;
+  }
+
+
+
+  .tulisanbesarhtml{
+    font-size: 65px;
+    position: relative;
+    bottom: 20px;
+  }
+
+  .penjelasanhtml{
+    position: relative;
+    bottom: 45px;
+    right: 40px;
+  }
+
+
+ 
+
+
+
+
+  .contenthtml {
+    background-color: #d9eee1;
+    padding-top:10px;
+    height: 420px; 
+    }
+
+
+    .gambarhtml{
+      height: 310px;
+      width: 436px;
+      border-radius: 5%;
+      
+      
+    }
+
+    .boxedlearnhtml {
+      position: relative;
+      bottom: 30px;
+      border: 1px solid rgb(73, 241, 73) ;
+      width: 150px;
+      padding-left: 20px;
+      padding-right: 20px;
+      background-color: rgb(73, 241, 73);
+      border-radius: 10px;
+      
+    }
+
+
+    .boxedhtmlvideo {
+      position: relative;
+      bottom: 10px;
+      border: 1px solid rgb(40, 30, 30);
+      width: 150px;
+      padding-left: 20px;
+      padding-right: 20px;
+      background-color: rgb(40, 30, 30);
+      border-radius: 10px;
+      
+    }
+
+    .containergambarhtml{
+      position: relative;
+      
+      left: 800px;
+      bottom: 260px;
+    }
+
+
+
+ 
+  /* Slideshow container */
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+  width: 450px;
+  left: 300px;
+  bottom:190px;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -22px;
+  color: rgb(0, 0, 0);
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+
+
+
+
+
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+  color: black;
+}
+
+
+.prev:hover, .next:hover {
+  background-color: rgba(255, 255, 255, 0.8);
+}
+
+/* Caption text */
+.text {
+  color: #000000;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+
+.numbertext {
+  color: #000000;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: rgb(17, 17, 17);
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+  position: relative;
+  bottom: 200px;
+  left: 300px;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/*  animation */
+.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+
+@media only screen and (max-width: 300px) {
+  .prev, .next,.text {font-size: 11px}
+}
+
+
+
+
+
+    /*                 main 2*/
+
+  
+    .containercss {
+      position: relative;
+      display: left;
+      left: 400px;
+      top: 30px;
+    }
+  
+    .containergambarcss{
+      position: relative;
+      
+      left: 800px;
+      bottom: 260px;
+    }
+  
+  
+    .tulisanbesarcss{
+      font-size: 65px;
+      position: relative;
+      bottom: 30px;
+    }
+  
+    .penjelasancss{
+      position: relative;
+      bottom: 70px;
+      right: 40px;
+    }
+  
+
+    .contentcss {
+      position: relative;
+      bottom: 226px;
+      background-color:#fff4a3;
+      padding-top: 10px;
+      width: 100%;
+      
+      }
+  
+  
+      .gambarcss{
+        height: 310px;
+        width: 436px;
+        border-radius: 5%;
+        position: relative;
+        bottom: 40px;
+        
+        
+      }
+  
+      .boxedcss {
+        position: relative;
+        bottom: 45px;
+        border: 1px solid rgb(73, 241, 73) ;
+        width: 150px;
+        padding-left: 20px;
+        padding-right: 20px;
+        background-color: rgb(73, 241, 73);
+        border-radius: 10px;
+        
+      }
+  
+  
+      .boxedcssvideo {
+        position: relative;
+        bottom: 30px;
+        border: 1px solid rgb(31, 24, 24) ;
+        width: 150px;
+        padding-left: 20px;
+        padding-right: 20px;
+        background-color: rgb(40, 30, 30);
+        border-radius: 10px;
+        
+      }
+
+      .tulisancss{
+        color: white;
+      }
+
+
+
+
+/*                                            main 3*/
+
+.contentjavascript {
+  position: relative;
+  bottom: 249px;
+  background-color:rgb(52, 214, 38);
+  padding-top: 10px;
+  height: 420px; 
+  
+  }
+
+       .containerjavascript {
+      position: relative;
+      display: left;
+      left: 400px;
+      top: 30px;
+    }
+  
+    .containergambarjavascript{
+      position: relative;
+      
+      left: 800px;
+      bottom: 340px;
+    }
+  
+  
+    .tulisanbesarjavascript{
+      font-size: 65px;
+      position: relative;
+      right: 130px;
+      bottom: 50px;
+    }
+  
+    .penjelasanjavascript{
+      position: relative;
+      bottom: 95px;
+      right: 65px;
+    }
+  
+  
+    
+  
+      .boxedlearnjavascript {
+        position: relative;
+        bottom: 80px;
+        border: 1px solid rgb(73, 241, 73) ;
+        width: 160px;
+        height: 50px;
+        padding-left: 23px;
+        padding-top: 8px;
+        background-color: rgb(73, 241, 73);
+        border-radius: 10px;
+        font-size: 11px;
+        
+      }
+  
+  
+      .boxedjavascriptvideo {
+        position: relative;
+        bottom: 60px;
+        border: 1px solid rgb(31, 24, 24) ;
+       width: 160px;
+       height: 50px;
+       padding-left: 20px;
+       padding-top: 8px;
+        background-color: rgb(40, 30, 30);
+        border-radius: 10px;
+        font-size: 11px;
+        
+        
+      }
+
+      .tulisanjavascript{
+        color: white;
+      }
+  
+  
+      .gambarjavascript {
+        height: 310px;
+        width: 436px;
+        border-radius: 5%;
+        
+        
+      }
+    
+      
+  
+
+ 
+
+  
+/*                                            main 4*/
+
+.contentsql {
+  position: relative;
+  bottom: 395px;
+  background-color:#96d4d4;
+  padding-top: 0px;
+  height: 420px; 
+  
+  }
+  .containergambarsql{
+    position: relative;
+    
+    left: 800px;
+    bottom: 340px;
+  }
+
+
+.containersql {
+  position: relative;
+  display: left;
+  left: 400px;
+  top: 30px;
+}
+
+
+
+
+.tulisansql{
+  font-size: 65px;
+  position: relative;
+
+  top: 30px;
+  left:20px ;
+}
+
+.penjelasansql{
+  position: relative;
+  bottom: 40px;
+  right: 40px;
+}
+
+  .gambarmainsql{
+    height: 310px;
+    width: 436px;
+    border-radius: 5%;
+    position: relative;
+    top: 90px;
+    
+    
+  }
+
+  .boxed5 {
+    position: relative;
+    bottom: 30px;
+    border: 1px solid rgb(73, 241, 73) ;
+    width: 150px;
+    padding-left: 20px;
+    padding-right: 20px;
+    background-color: rgb(73, 241, 73);
+    border-radius: 10px;
+    
+  }
+
+
+  .boxeed5 {
+    position: relative;
+    bottom: 10px;
+    border: 1px solid rgb(31, 24, 24) ;
+    width: 150px;
+    padding-left: 20px;
+    padding-right: 20px;
+    background-color: rgb(40, 30, 30);
+    border-radius: 10px;
+    
+  }
+
+  .tulisan{
+    color: white;
+  }
+
+ 
+
+
+
+  /* main 5         dan kotak 1 */
+
+.main5{
+  position: relative;
+  left: 200px;
+  bottom: 100px;
+  
+}
+
+
+.main5heading{
+  position: relative;
+  font-size: 35px;
+}
+
+.main5text{
+  line-height: 1.6;
+  font-size: 19px;
+
+}
+
+.main5logo{
+  position: absolute;
+  bottom: 150px;
+  left: 530px;
+ 
+}
+#logomicrosoft{
+  position: relative;
+  left: 40px;
+}
+#amazon{
+  position: relative;
+  top: 130px;
+  right: 650px;
+}
+
+#uber{
+  position: absolute;
+  left: 300px;
+  top: 160px;
+}
+
+#paypal{
+  position: absolute;
+  left: 500px;
+  top: 160px;
+}
+
+ 
+  
+/*                                 konten berita*/
+
+
+.news{
+  position: relative;
+  bottom: 20px;
+  font-size: 30px;
+  text-align: center;
+  right: 40px;
+}
+
+.contentberita{
+  position: relative;
+  bottom: 90px;
+}
+
+
+
+.berita1{
+  position: relative;
+  top: 100px;
+  left: 80px;
+}
+
+.berita2{
+  position: relative;
+  left: 580px;
+  bottom: 280px;
+  
+}
+
+.berita3 {
+  position: relative;
+  left: 1080px;
+  bottom:695px;
+}
+
+
+.contentberita {
+  background-color: d9eee1;
+  padding-top:10px;
+  height: 590px; 
+  }
+  
+
+.gambarberita1{
+  position: relative;
+  width: 400px;
+  height: 250px;
+  border-radius: 7px;
+}
+
+.gambarberita2{
+  position: relative;
+  width: 400px;
+  height: 250px;
+  border-radius: 7px;
+
+}
+
+.gambarberita3{
+  position: relative;
+  width: 400px;
+  height: 250px;
+  border-radius: 7px;
+}
+
+.headline1{
+
+}
+
+.isigambar1{
+
+}
+
+
+.headline2{
+  font-weight: bold
+
+
+}
+
+.isigambar2{
+  
+}
+
+
+.headline3{
+
+}
+
+.isigambar3{
+  
+}
+
+/*                                 konten berita*/
+.boxacordian{
+  margin-bottom: 100px;
+  width: 800px;
+  position: relative;
+  left: 400px;
+}
+
+.accordiontext{
+  position: relative;
+  bottom: 20px;
+  font-size: 30px;
+  text-align: center;
+  right: 40px;
+}
+
+
+.accordion {
+  background-color: #eee;
+  color: #444;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 15px;
+  transition: 0.4s;
+}
+
+.active, .accordion:hover {
+  background-color: #ccc;
+}
+
+.accordion:after {
+  content: '\002B';
+  color: #777;
+  font-weight: bold;
+  float: right;
+  margin-left: 5px;
+}
+
+.active:after {
+  content: "\2212";
+}
+
+.panel {
+  padding: 0 18px;
+  background-color: white;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.2s ease-out;
+}
+
+  /* css bagian footer */
+  .footer {
+    background-color: #1d2a35;
+    height: 200px;
+    position: relative;
+    color: white;
+   
+
+  }
+  .footertulisankiri{
+    display: inline-block;
+    position: absolute;
+   left: 190px;
+    top: 50px;
+  }
+  
+
+  .logobawah{
+    position: relative;
+    top: 60px;
+    left: 40px;
+    width: 150px;
+    height: 100px;
+  }
+   
+  
+
+  .footertulisan1{
+    display: inline-block;
+    position: relative;
+    left: 700px;
+    top: 50px;
+  }
+
+  .footertulisan2{
+    display: inline-block;
+    position: relative;
+    left: 850px;
+    top: 50px;
+  }
+
+
+  
+  .footertulisan3{
+    display: inline-block;
+    position: relative;
+    left: 1100px;
+    top: 0px;
+
+  }
+
+  .email{
+    position: relative;
+    right: 100px;
+  }
+
+.logoabc{
+  position: relative;
+  left: 1210px;  
+  
+  
+}

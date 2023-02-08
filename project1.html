@@ -1,0 +1,465 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>BARF</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="css/project1.css">
+       
+            <style>
+            * {
+            box-sizing: border-box;
+            font-family: Arial, Helvetica, sans-serif;
+            }    
+            </style>
+            <script src="js/project1.js">
+
+            </script>      
+    </head>
+    <body>
+
+<!-- kode bagian atas             -->
+        
+<a id="top"></a>
+
+<div class="topnav">
+    <img class="logoatas" src="./gambar/logoabc.png">
+    <h1 class="logoname">ABC LEARNING CENTER</h1>
+
+    <a class="tulisanhome" href="index.html">HOME</a>
+
+    <button class="dropbtn" onclick="myFunction()" onmouseout="myfuction2()" >COURSES   <i class="fa fa-caret-down"></i>  </button>
+    
+
+
+    <a class="tulisanabout" href="#">ABOUT</a>
+    <a class="tulisanjoinus" href="#">JOIN US</a>
+    <a class="tulisanjoinus" href="#">CONTACT US</a>
+
+
+
+
+    
+   
+</div>
+
+  </div>
+          
+
+
+ 
+        
+
+
+
+
+
+<!-- kode bagian tengah          -->
+       
+       <div class="content" >
+            <div class="change1">
+                <h1>Change your career, <br> Learn to code.</h1>
+            </div>
+            <div class="t1">
+                <p>Through immersive coding bootcamps, ABC Learning center<br> teaches you the skills and entrepreneurial mindset you need to thrive,<br> now and in the future</p>
+            </div>
+
+
+
+            <!-- kode bagian slide          -->
+            <div class="slideshow-container">
+
+                <div class="mySlides fade">
+                  <div class="numbertext"></div>
+                  <img src="./gambar/grupcoding.jpg" style="width:100%">
+                  <div class="text"></div>
+                </div>
+                
+                <div class="mySlides fade">
+                  <div class="numbertext"></div>
+                  <img src="./gambar/learncode.png" style="width:100%">
+                  <div class="text"></div>
+                </div>
+                
+                <div class="mySlides fade">
+                  <div class="numbertext"></div>
+                  <img src="./gambar/artikel2.png" style="width:100%">
+                  <div class="text"></div>
+                </div>
+                
+                <a class="prev" onclick="plusSlides(-1)"><i class="fa fa-caret-square-o-left" style="font-size:36px"></i></a>
+                <a class="next" onclick="plusSlides(1)"><i class="fa fa-caret-square-o-right" style="font-size:36px"></i></a>
+                
+                </div>
+                <br>
+                
+                <div style="text-align:center">
+                  <span class="dot" onclick="currentSlide(1)"></span> 
+                  <span class="dot" onclick="currentSlide(2)"></span> 
+                  <span class="dot" onclick="currentSlide(3)"></span> 
+                </div>
+
+
+
+                <script>
+                    let slideIndex = 1;
+                    showSlides(slideIndex);
+                    
+                    function plusSlides(n) {
+                      showSlides(slideIndex += n);
+                    }
+                    
+                    function currentSlide(n) {
+                      showSlides(slideIndex = n);
+                    }
+                    
+                    function showSlides(n) {
+                      let i;
+                      let slides = document.getElementsByClassName("mySlides");
+                      let dots = document.getElementsByClassName("dot");
+                      if (n > slides.length) {slideIndex = 1}    
+                      if (n < 1) {slideIndex = slides.length}
+                      for (i = 0; i < slides.length; i++) {
+                        slides[i].style.display = "none";  
+                      }
+                      for (i = 0; i < dots.length; i++) {
+                        dots[i].className = dots[i].className.replace(" active", "");
+                      }
+                      slides[slideIndex-1].style.display = "block";  
+                      dots[slideIndex-1].className += " active";
+                    }
+                    </script>
+                
+
+
+            
+            
+       </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+       
+<!-----------------------------------main 1-->
+       <div class="contenthtml" >
+        <section>
+            <div class="containerhtml">
+                     
+                <h1 class="tulisanbesarhtml">HTML</h1>
+                <p class="penjelasanhtml">The language for building web pages</p>
+                
+                 <div class="boxedlearnhtml">
+                     <a style=" text-decoration: none; color: rgb(0, 0, 0); "  href="./study/html page.html"><p>LEARN HTML</p></a>
+                </div>
+
+                <div class="boxedhtmlvideo">
+                    <a href="#" target="_blank"><p style="color: white;">HTML VIDEOS</p></a>
+               </div>
+            </div>
+            <div class="containergambarhtml">
+                <img class="gambarhtml" src="./gambar/htmlexample.png">
+                
+           
+            </div>
+
+
+<!------------------------------main 2---------------------------->
+
+            <div class="contentcss" >
+                <section>
+                    <div class="containercss">
+                             
+                        <h1 class="tulisanbesarcss">CSS</h1>
+                        <p class="penjelasancss">The language for styling web pages</p>
+                        
+                         <div class="boxedcss">
+                             <a style=" text-decoration: none; color: black; "  href="#"><p>LEARN CSS</p></a>
+                        </div>
+        
+                        <div class="boxedcssvideo">
+                            <a href="#" target="_blank"><p class="tulisancss">CSS VIDEOS</p></a>
+                       </div>
+                    </div>
+                    <div class="containergambarcss">
+                        <img class="gambarcss" src="./gambar/css.png">
+                                          
+                    </div>
+
+
+
+
+
+
+                    <!------------------------------main 3  ---------------------------->
+
+            <div class="contentjavascript" >
+                <section>
+                    <div class="containerjavascript">
+                             
+                        <h1 class="tulisanbesarjavascript">JAVASCRIPT</h1>
+                        <p class="penjelasanjavascript">The language for programming web pages</p>
+                        
+                         <div class="boxedlearnjavascript">
+                            <a  style=" text-decoration: none; color: black; " href="#"><p>LEARN JAVASCRIPT</p></a> 
+                        </div>
+        
+                        <div class="boxedjavascriptvideo">
+                            <a href="#" target="_blank"><p class="tulisanjavascript">JAVASCRIPT VIDEOS</p></a>
+                       </div>
+                    </div>
+                    <div class="containergambarjavascript">
+                        <img class="gambarjavascript" src="./gambar/javascript.png">
+                                          
+                    </div>
+
+
+
+
+
+                              <!------------------------------main 4  ---------------------------->
+
+            <div class="contentsql" >
+                
+                    <div class="containersql">
+                             
+                        <h1 class="tulisansql">SQL</h1>
+                        <p class="penjelasansql">A language for accessing databases</p>
+                        
+                         <div class="boxed5">
+                            <a  style=" text-decoration: none; color: black; " href="#"><p>LEARN SQL</p></a> 
+                        </div>
+        
+                        <div class="boxeed5">
+                            <a href="#" target="_blank"><p class="tulisan">SQL VIDEOS</p></a>
+                       </div>
+                    </div>
+                    <div class="containergambarsql">
+                        <img class="gambarmainsql" src="./gambar/sql.png">
+                                          
+                    </div>
+
+<!---------------------------------------------------------main 5-->
+
+
+
+
+
+                    <div class="main5">
+                        <div class="main5heading">
+                            <h1> Companies that <br>
+                               <mark style="color: red; background-color: #ffe0e1;"> Hire</mark>  our graduates</h1>
+                        </div>
+                        <div class="main5text">
+                            <p>Our coding bootcamp graduates work as <br> software engineers,
+                                 Product Managers, <br> Growth Hackers or UX/UI Designers in <br> the most successful 
+                                 companies. What do <br> recruiters love about our alumni? They <br> know how to solve problems,
+                                  communicate <br> with a team and always focus on their work.</p>
+                        </div>
+
+                        <div class="main5logo">
+                            <img id="logogoogle" src="./gambar/icon_google.png" alt="" width="300px" height="100px">
+                            <img id="logomicrosoft" src="./gambar/icon_microsoft.png" alt="" width="350px" height="100px">
+                            <img id="amazon" src="./gambar/icon_amazon.png" alt="" width="250px" height="90px">
+                            <img id="uber" src="./gambar/icon_uber.png" alt="" width="130px" height="35px">
+                            <img id="paypal" src="./gambar/icon_paypal.png" alt="" width="130px" height="35px">
+
+                        </div>
+                        
+                    </div>
+
+
+
+
+
+
+
+         <div class="boxacordian">
+            <div>
+                <h1 class="accordiontext">Frequenlty asked question</h1>
+            </div>
+            <button class="accordion">Question 1</button>
+            <div class="panel">
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+            </div>
+            
+            <button class="accordion">Question 2</button>
+            <div class="panel">
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+            </div>
+            
+            <button class="accordion">Question 3</button>
+            <div class="panel">
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+            </div>
+
+         </div>        
+
+
+
+
+<script>
+    var acc = document.getElementsByClassName("accordion");
+    var i;
+    
+    for (i = 0; i < acc.length; i++) {
+      acc[i].addEventListener("click", function() {
+        this.classList.toggle("active");
+        var panel = this.nextElementSibling;
+        if (panel.style.maxHeight) {
+          panel.style.maxHeight = null;
+        } else {
+          panel.style.maxHeight = panel.scrollHeight + "px";
+        } 
+      });
+    }
+    </script>
+    
+
+
+
+
+
+
+    <!-----------------------------------main berita-->
+    <div class="contentberita" >
+        <div class="berita1" >
+            <div>
+                <h1 class="news">Our News</h1>
+            </div>
+            <img class="gambarberita1" src="./gambar/learncode.png">
+            <div class="tulisangambar1">
+                <p class="headline1">Meet Jesse Pinkman</p>
+                <p class="isigambar1">Jesse pinkman started in ABC Learning Center<br> and now
+                has a job at google and building his own <br> bootcamp to teach kids how to code </p>
+            </div>
+        </div>
+        <div class="berita2">
+            <img class="gambarberita2" src="./gambar/artikel2.png">
+            <div class="tulisangambar1">
+                <p class="headline2">it's ABC Learning Center 8th birthday today </p>
+                <p class="isigambar2">In 8 years, over 13 000 students have learned to code<br>
+                     and changed  their lives with Le Wagon. We are very<br> humbled to have been part of so many of 
+                     their journeys<br> and help them to succeed by teaching them the coding <br>skills of tomorrow. Here is 
+                     to another year - hurray!</p>
+            </div>
+        </div>
+        <div class="berita3" >
+            <img class="gambarberita3" src="./gambar/woman-coding.jpg">
+            <div class="tulisangambar1">
+                <p class="headline3">Sarah, from accounting to web designer</p>
+                <p class="isigambar3">After several fail job, Sarah start her journey to learn
+                    <br> code from ABC Learning Center and now work profesionally <br>as web developer
+                </p>
+            </div>
+        </div>
+       
+
+        
+  
+     
+           
+    </div>
+
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- kode bagian footer          -->
+
+
+                <div class="footer">
+
+
+                    <img class="logobawah" style="position: absolute;" src="./gambar/logoabc.png">
+
+
+
+
+                    <div class="footertulisankiri">
+                       
+                        <h2>ABC LEARNING CENTER</h2>
+                        <p>Best Online Coding Website</p> 
+                    </div> 
+                    <div class="footertulisan1">
+                        <a style=" text-decoration: none; color: white; " href="#" ><p>Join us</p></a>
+                        <p>Courses</p>
+                        <a style=" text-decoration: none; color: white; " href="#top"><p>Back to top</p></a> 
+                    </div> 
+                    <div class="footertulisan2">
+                       <a style=" text-decoration: none; color: white; "  href="#" ><p>About</p></a> 
+                       <a style=" text-decoration: none; color: white; " href="#"><p>Privacy Policy</p></a>
+                       <a style=" text-decoration: none; color: white; " class="tulisansitemap" href="#l">Sitemap</a>
+                    </div> 
+                    <div class="footertulisan3">
+                        <p>Lets Talk</p>
+                        <p class="email">ABClearningcenter@.gmail.com</p>
+                    </div> 
+                        <div class="logoabc">
+                            <a>
+                                <img src="./gambar/facebook.png" style="width: 55px; height: 50px;" >
+                            </a>
+                            <a>
+                                <img src="./gambar/ig.png" style="width: 70px; height: 50px;" >
+                            </a>
+                            <a>
+                                <img src="./gambar/twitter.png" style="width: 50px;" >
+                            </a>
+                        </div>
+                        
+                    
+                </div>
+            
+
+         
+
+           
+  
+
+       
+        
+        
+
+        
+        
+
+
+
+
+
+
+        
+    </body>
+</html>
+
+

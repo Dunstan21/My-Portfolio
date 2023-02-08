@@ -1,0 +1,394 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>My Portfolio</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/project2.css">
+</head>
+<body>
+    <header>
+        <div class="navbar navbar-expand-md navbar-dark bg-dark mb-" role="navigation">
+            <a class="navbar-brand mainabc" href="#">ABC Jobs</a>
+
+            <form class="form-inline mt-2 mt-md-0 searchbar">
+                <input class="form-control mr-sm-2" type="text" placeholder="Search" aria-label="Search">
+                <button type="button" class="btn btn-primary button">Search</button>
+            </form>
+
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse navbarlink" id="navbarCollapse">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="" target="">Features</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link disabled" href="#">Friends</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link disabled" href="#">Login</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link disabled" href="#">Register</a>
+                    </li>
+               
+                   
+                </ul>
+                
+            </div>
+        </div>
+        
+       
+    </header>
+    <section class="bg-dark text-light pt-5 text-center text-sm-start" id="backgroundblack">
+        <div class="container">
+          <div class="d-sm-flex align-items-center justify-content-between">
+              <div>
+                <h1>Find Your  <span class="text-warning">
+                  Dream Job
+                </span> Here </h1>
+                <p class="lead my-4"  id="backgroundblack"> 
+                  Join the world's #1 startup community <br> specialized
+                   in remote & local technical talent and opportunities
+                </p>
+                <a  href="<%= request.getContextPath() %>/register">
+                <button type="button" class="btn btn-primary">Start Your Journey</button>   
+                </a>
+             
+              </div>
+              <img class="img-fluid d-none d-md-block my-4 " src="images/dreamjob.png"
+              width="600px" height="600px" alt=" " />
+          </div>
+        </div>
+      
+      </section>
+      
+      
+      <!----   boxes       -->
+      
+      
+      <section class="p-5">
+        <div class="container">
+          <div class="row text-center g-4">    <!---g, gx, gy  for gap   -->   
+            <div class="col-md">
+              <div class="card bg-dark text-light">
+                <div class="card-body text-center">
+                  <div class="h1 mb-3">
+                    <i class="bi bi-laptop"></i>
+                  </div>
+                  <h3 class="card-title mb-3">
+                    Join a group
+                  </h3>
+                  <p class="card-text">
+                    Do what you love. meet others who love it, find your 
+                    comunity. The rest is history
+                  </p>
+                  <a class=" btn btn-primary" href="">
+                    read more
+                  </a>
+                </div>
+              </div>
+            </div>
+      
+            <div class="col-md">
+              <div class="card bg-dark text-light">
+                <div class="card-body text-center">
+                  <div class="h1 mb-3">
+                    <i class="bi bi-person-square"></i>
+                  </div>
+                  <h3 class="card-title mb-3">
+                    Find an event
+                  </h3>
+                  <p class="card-text">
+                    Event are happening on just about any topic
+                    you can think of, from online  gaming  to yoga and hiking
+                  </p>
+                  <a class=" btn btn-primary" href="">
+                    read more
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div class="col-md">
+              <div class="card bg-dark text-light">
+                <div class="card-body text-center">
+                  <div class="h1 mb-3">
+                    <i class="bi bi-people"></i>
+                  </div>
+                  <h3 class="card-title mb-3">
+                    Start a group
+                  </h3>
+                  <p class="card-text">
+                    You don't have to be an expert to gather people together and explore the same interest
+                  </p>
+                  <a class=" btn btn-primary" href="">
+                    read more
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+      
+        </div>
+      </section>
+      
+      <!-----       learn section-->
+      
+      <section id="learn" class="p-5">
+        <div class="container">
+          <div class="row align-items-center justify-content-between">
+              <div class="col-md">
+                <img src="images/cv.png" alt="" id="cvimage" style="width: 600px;height: 550px;"> 
+              </div>
+    
+              <!---tulisan  -->
+              <div class="col-md p-5">
+                <h2>Why job seekers love us</h2>
+                <p>
+                  Unique jobs at startups and tech companies you can't find anywhere else
+                  Say goodbye to cover letters - your profile is all you need. One click to apply and you're done.
+                  Apply and show off your CV to be featured and we'll highlight your profile to top recruiters and companies searching for your specific skills. and did we forget to tell you 
+      Oh, it's also 100% free.
+                </p>
+            
+                  <a href="" class="btn btn-light mt-3">
+                    <i class="bi bi-chevron-right">Read More</i>
+                  </a>
+      
+              </div>
+      
+              
+          </div>
+        </div>
+      </section>
+      
+      
+      
+      <!------------>
+      <section id="learn" class="p-5 bg-dark text-light">
+        <div class="container">
+          <div class="row align-items-center justify-content-between">
+             
+              <div class="col-md p-5">
+                <h2>Why recruiters love us</h2>
+                <p>
+                  8 million responsive and startup-ready candidates, w
+                  ith all the information you need to vet them
+                  Everything you need to kickstart your recruiting - get job posts, company branding, 
+                  and HR tools set up within 10 minutes, for free
+                  Plus, we can do the vetting for you! With Curated, we review the world's top tech talent and highlight candidates directly to you 2x a week.
+                </p>
+                
+                  <a href="" class="btn btn-light mt-3">
+                    <i class="bi bi-chevron-right">Read More</i>
+                  </a>
+      
+              </div>
+              <div class="col-md">
+                <img src="images/recruit.png" alt=""> 
+              </div>
+          </div>
+        </div>
+      </section>
+      
+      
+      
+   
+      
+      <section id="instructor" class="p-5 bg-primar" >
+        <div class="container">
+          <h2 class="text-center mb-4">
+            Contact Info
+          </h2>
+          <p class="lead text-center  mb-5">
+            Our instructor all have 5% years working as a web developer
+            in the industry
+          </p>
+          <div class="row g-4">
+              <div class="col-md-6 col-lg-3">
+                <div class="card bg-light">
+                  <div class="card-body text-center">
+                    <img  src=" https://randomuser.me/api/portraits/men/11.jpg" alt="" class="rounded-circle mb-3">
+                    <h3 class="card-title mb-3"> John Doe</h3>
+                    <p class="card-text">
+                      A experience compared to older players in the area like LinkedIn. In a short amount of time I had a professional looking profile that looked great on desktop and mobile. I particularly enjoyed the ease of adding multimedia to my key experiences making the page less text heavy and enabled me to showcase my digital work in a manner that had more impact
+                    </p>
+                    <a href=""> <i class="bi bi-twitter text-dark mx-1"></i></a>
+                    <a href=""> <i class="bi bi-facebook text-dark mx-1"></i></a>
+                    <a href=""> <i class="bi bi-linkedin text-dark mx-1"></i></a>
+                    <a href=""> <i class="bi bi-instagram text-dark mx-1"></i></a>
+                  </div>
+                </div>
+              </div>
+      
+              <!-----guru 2-->
+              <div class="col-md-6 col-lg-3">
+                <div class="card bg-light">
+                  <div class="card-body text-center">
+                    <img  src=" https://randomuser.me/api/portraits/women/11.jpg" alt="" class="rounded-circle mb-3">
+                    <h3 class="card-title mb-3"> Jane Doe</h3>
+                    <p class="card-text">
+                      For those of us with hyphenated experiences, values and talents, there has never been a good way of explaining ourselves to the world. Resumes are too linear, and full content websites aren't nimble enough for the modern career trajectory. Sumry is the perfect tool to tell your story in an interactive format that evolves as you do.
+                    </p>
+                    <a href=""> <i class="bi bi-twitter text-dark mx-1"></i></a>
+                    <a href=""> <i class="bi bi-facebook text-dark mx-1"></i></a>
+                    <a href=""> <i class="bi bi-linkedin text-dark mx-1"></i></a>
+                    <a href=""> <i class="bi bi-instagram text-dark mx-1"></i></a>
+                  </div>
+                </div>
+              </div>
+              <!-----guru 3-->
+              <div class="col-md-6 col-lg-3">
+                <div class="card bg-light">
+                  <div class="card-body text-center">
+                    <img  src=" https://randomuser.me/api/portraits/men/12.jpg" alt="" class="rounded-circle mb-3">
+                    <h3 class="card-title mb-3"> Steve harrigton</h3>
+                    <p class="card-text">
+                    Sumry allows you to show your true self in communication with employers — no hiding behind an inflated profile or gaudy layout. The personal profile page epitomizes both minimalism and practicality. There is nothing else quite like Sumry on the market today. I stopped handing over my resume when I got Sumry. Now I hand over my story.
+                    </p>
+                    <a href=""> <i class="bi bi-twitter text-dark mx-1"></i></a>
+                    <a href=""> <i class="bi bi-facebook text-dark mx-1"></i></a>
+                    <a href=""> <i class="bi bi-linkedin text-dark mx-1"></i></a>
+                    <a href=""> <i class="bi bi-instagram text-dark mx-1"></i></a>
+                  </div>
+                </div>
+              </div>
+              <!-----guru 4-->
+              <div class="col-md-6 col-lg-3">
+                
+                <div class="card bg-light">
+                  <div class="card-body text-center">
+                    <img  src=" https://randomuser.me/api/portraits/women/12.jpg" alt="" class="rounded-circle mb-3">
+                    <h3 class="card-title mb-3"> Sadie sink</h3>
+                    <p class="card-text">
+                      Sumry was introduced to me just in time when I was looking to create a portfolio site. It was a breeze to set up a great looking website that showcased all my greatest skills and experiences. Best part is, everything is done for you and you only need to fill in relevant informations about yourself. At the price of just 2 or 3 coffees a month, Sumry is a must have!
+                    </p>
+                    <a href=""> <i class="bi bi-twitter text-dark mx-1"></i></a>
+                    <a href=""> <i class="bi bi-facebook text-dark mx-1"></i></a>
+                    <a href=""> <i class="bi bi-linkedin text-dark mx-1"></i></a>
+                    <a href=""> <i class="bi bi-instagram text-dark mx-1"></i></a>
+                  </div>
+                </div>
+              </div>
+          </div>
+        </div>
+      </section>
+      
+      
+      <br>
+      <br>
+      <br>
+    
+        <script
+            src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"></script>
+        <script
+            src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js"></script>
+
+
+            <footer  class="text-center text-lg-start text-white "  style=" background-color: #45526e">
+
+                <div class="container p-4 pb-0">
+    
+                    <section class="">
+                    
+                      <div class="row">
+                      
+                        <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3">
+                          <h6 class="text-uppercase mb-4 font-weight-bold">
+                            ABC JOBS
+                          </h6>
+                          <p>
+                           Start your journey and find new career path for you and find your dream job here
+                          </p>
+                        </div>
+                     
+              
+                      
+              
+                        <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mt-3 ">
+                          <h6 class="text-uppercase mb-4 font-weight-bold">General</h6>
+                          <p>
+                            <a class="text-white " style="text-decoration: none;">Sign Up</a>
+                          </p>
+                          <p>
+                            <a class="text-white" style="text-decoration: none;">About</a>
+                          </p>
+                          <p>
+                            <a class="text-white" style="text-decoration: none;">Careers</a>
+                          </p>
+                          <p>
+                            <a class="text-white" style="text-decoration: none;">Help Center</a>
+                          </p>
+                        </div>
+                      
+              
+                        <hr class="w-100 clearfix d-md-none" />
+              
+                       
+                        <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mt-3">
+                          <h6 class="text-uppercase mb-4 font-weight-bold">
+                            Useful links
+                          </h6>
+                          <p>
+                            <a class="text-white" style="text-decoration: none;">Learning</a>
+                          </p>
+                          <p>
+                            <a class="text-white" style="text-decoration: none;">Jobs</a>
+                          </p>
+                          <p>
+                            <a class="text-white" style="text-decoration: none;">Service</a>
+                          </p>
+                          <p>
+                            <a class="text-white" style="text-decoration: none;">Salary</a>
+                          </p>
+                        </div>
+              
+                       
+                        <hr class="w-100 clearfix d-md-none" />
+              
+                      
+                        <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mt-3">
+                          <h6 class="text-uppercase mb-4 font-weight-bold">Contact</h6>
+                          <p><i class="fas fa-envelope mr-3"></i> abcjobs@gmail.com</p>
+                          <p><i class="fas fa-phone mr-3"></i> + 01 234 567 88</p>
+                          <p><i class="fas fa-print mr-3"></i> + 01 234 567 89</p>
+                        </div>
+                     
+                      </div>
+                  
+                    </section>
+              
+              
+                    <hr class="my-3">
+              
+                
+                    <section class="p-3 pt-0 d-flex justify-content-center">
+                      <div class="">
+                        <!-- Grid column -->
+                        <div class="">
+                        
+                          <div class="">
+                            <p>© 2022 Copyright: ABC JOBS</p>
+                          
+                          </div>
+                      
+                        </div>
+                        
+                       
+                      
+                      </div>
+                    </section>
+                   
+                  </div>
+            </footer>
+
+
+
+</body>
+</html>
